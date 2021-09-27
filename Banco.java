@@ -41,6 +41,8 @@ public class Banco {
                     cuentaBancaria.transferir(detalleMovimiento1);
                 }
             }
+        }
+        for (CuentaBancaria cuentaBancaria : cuentasBancarias) {
             if (cuentaBancaria.getIDCuenta().equals(IDCuenta2)) {
                 if (aux) {
                     cuentaBancaria.recibirTransferencia(detalleMovimiento2);
